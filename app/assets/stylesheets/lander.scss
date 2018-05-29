@@ -1,3 +1,122 @@
-// Place all the styles related to the Lander controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+.bg {
+	/* Background image and gradient */
+   background: linear-gradient(120deg, rgba(193, 143, 124, .5)
+ 3%,rgba(255, 202, 129, .5)
+ 27%,rgba(138, 153, 144, .5)
+ 50%,rgba(154, 191, 197, .5)
+ 75%,rgba(49, 89, 138, .5)
+ 100%);
+  
+	/* 	Background blend mode 
+		 	for blending the image and thegradient.
+ 	 		The blend modes are: 
+				screen, 
+				overlay, 
+				darken, 
+				lighten, 		
+				color-dodge, 
+				color-burn, 
+				hard-light, 
+				soft-light, 			
+				difference, 
+				exclusion, 
+				hue, 
+				saturation, 
+				color, 
+				luminosity. 
+				And also *normal* which reset it.
+				*/
+  background-blend-mode: color-burn;
+  padding-top: 0vw;
+} 
+
+
+/*.bg {
+   background: url(https://i.pinimg.com/originals/90/ca/9d/90ca9db125b5f866361e8371a990becb.jpg) fixed, linear-gradient(120deg, rgb(193, 143, 124, .5)
+ 3%,rgb(255, 202, 129, .5)
+ 27%,rgb(138, 153, 144, .5)
+ 50%,rgb(154, 191, 197, .5)
+ 75%,rgb(49, 89, 138, .5)
+ 100%);
+  
+	 	Background blend mode 
+		 	for blending the image and thegradient.
+ 	 		The blend modes are: 
+				screen, 
+				overlay, 
+				darken, 
+				lighten, 		
+				color-dodge, 
+				color-burn, 
+				hard-light, 
+				soft-light, 			
+				difference, 
+				exclusion, 
+				hue, 
+				saturation, 
+				color, 
+				luminosity. 
+				And also *normal* which reset it.
+				
+  background-blend-mode: color-burn;
+  padding-top: 500vw;
+} */
+
+/*#myVideo {
+    position: fixed;
+    right: 0;
+    top: 0;
+    min-width: 100%; 
+    min-height: 100%;
+}*/
+
+%common-style{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+}
+.bg-animation{
+	@extend %common-style;
+	> div{
+		@extend %common-style;
+		will-change: opacity;
+	}
+	.bg-1{
+		background: linear-gradient(180deg, #ffca81 60%, #9bdaff 100%);
+	}
+	.bg-2{
+		background: linear-gradient(300deg, #9abfc5 60%, #9bdaff 100%);
+		animation: bg-fade-1 6s linear infinite;
+	}
+	.bg-3{
+		background: linear-gradient(10deg, #c18f7c 60%, #9bdaff 100%);
+		animation: bg-fade-2 6s linear infinite;
+	}
+}
+
+@keyframes bg-fade-1 {
+  0% {
+    opacity: 1; }
+  33% {
+    opacity: 1; }
+  66% {
+    opacity: 0; }
+  100% {
+    opacity: 0; }
+}
+
+@keyframes bg-fade-2 {
+  0% {
+    opacity: 1; }
+  33% {
+    opacity: 0; }
+  66% {
+    opacity: 0; }
+  100% {
+    opacity: 1; }
+}
+
+
+
+ 
