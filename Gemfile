@@ -28,6 +28,8 @@ gem 'jquery-rails'
 # gem 'jquery-turbolinks'
 gem 'materialize-sass'
 
+gem 'mailchimp-api', require: 'mailchimp'
+
 gem 'jbuilder', '~> 2.5'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
