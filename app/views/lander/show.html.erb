@@ -18,7 +18,7 @@
 
 <style type="text/css">
 	    .parallax-container {
-      height: 30em;
+      height: 55em;
     }
 video#bgvid { 
     position: fixed;
@@ -35,8 +35,16 @@ video#bgvid {
 
 body{
 font-family: 'Roboto', sans-serif;
-color: #a35041;
+color: #c6442e;
+/*background-image: url("/assets/IMG_0913.JPG");
+*/
+}
 
+@media only screen and (max-width: 600px) {
+    #cta-top {
+      font-size:5em !important;
+      margin-top: 50%;
+}
 }
 
 .indicators .indicator-item{
@@ -75,204 +83,287 @@ color: #a35041;
      box-shadow: 0 1px 0 0 #000;
    }
 
+   nav ul li a{
+    font-weight: 600;
+    font-size: 18px;
+   }
+
+   #mc_embed_signup form{
+    padding: 0 !important;
+   }
 
 </style>
 <body>
-<nav class="transparent" style="box-shadow: none !important; height: 100px;">
-    <div class="nav-wrapper transparent valign-wrapper">
+
+
+
+<div class="parallax-container" style="background: rgba(0,0,0,0.1);">
+    <nav class="transparent" style="box-shadow: 0 0 0 5px rgba(0,0,0,0) !important; height: 100px; ">
+    <div class="nav-wrapper transparent container" style="background: rgba(0,0,0,0.6); margin-top: 1em;">
       <a href="#" class="brand-logo center">
-        <img src="assets/Evascape-Logo.svg" style="width: 6em; height: 100%;"></a>
+        <img src="assets/EVA Logo White-19.png" style="width: 6.5em; height: 100%; padding-top: .5em;"></a>
+      <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+
       <ul id="nav-mobile" class="left hide-on-med-and-down">
+        <li><a href="http://blog.evascape.com/">The Evas - Blog</a></li>
+
+      </ul>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a href="badges.html">Story</a></li>
+
+        <li><a href="https://www.instagram.com/evascapeshop/">Instagram</a></li>
       </ul>
     </div>
 
   </nav>
 
+  <ul class="sidenav" id="mobile-demo">
+    <li><a href="http://blog.evascape.com/">Blog</a></li>
+    <li><a href="badges.html">Story</a></li>
+    <li><a href="https://www.instagram.com/evascapeshop/">Instagram</a></li>
+    </ul>
 
-<div class="row">
-    <div class="col s12 m10 valign-wrapper" style="background: #cfb3a7;">
 
-        <div class="col s6 m5 offset-m2 scrollslow" >
-            <div class="container right">
-                <p style="line-height: 1.3; font-size: 3em;">Designed for<br>the Modern<br>Nomad ___</p>
-            </div>
+  <div class="row">
+      <div class="col s12 m10 l6 offset-l1">
+        <div class="container right" style="margin-top: -5em;">
+
+
+            <p id="cta-top" class="white-text flow-text" style="line-height: 1.2; font-size: 7.7em; font-weight: 600; ">Because<span style="text-decoration: underline;"> settling down</span> is boring.</p>
+
         </div>
-        <div class="col s6 m4">
-            <img class="hide-on-small-only" src="assets/IMG_0722.JPG" style="height: 30em; width: auto; float: right;">
-        </div>
+      </div>
+  </div>
+    
+      <div class="parallax"><img style="height: 90vw; width: auto;" src="assets/greg-kantra-338515-unsplash.jpg"></div>
     </div>
-    </div>
-
-    <div class="section" style="padding-top: 100px; padding-bottom: 100px;">
+        
+    <div class="section valign-wrapper" style="height: 300px;">
+        
         <div class="row">
-            <div class="col s12 scrollsuperslow">
-                <div class="container center-align">
-                    <h3 class="black-text" style="font-weight: 600;">Hi, we're Evascape.</h3><br><br>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col s11 m10 l6 offset-l3 offset-m1 scrollsuperslow">
-                <p class="black-text flow-text" style="line-height: 1.9; font-size: 1.4em;">We believe your decor should effortlessly fit your lifestyle and ever changing mood because <span style="font-weight: 800;">you shouldn’t have to compromise making your space yours.</span> Evascape is at the intersection of form and function with an emphasis on mobility, modularity, and innovation to fit our ever nomadic lifestyle. We deliver authenticity through worldly at home experiences to as seen through the modern nomad’s eyes. <span style="font-weight: 800;">Our goal is to inspire dreamers to dream bigger</span> through design that speaks for itself and by telling the real stories about the very real people and places that make our top destinations such special places.</p>
-            </div>
-        </div>
-    </div>
-
-    <div class="row valign-wrapper" style="padding-bottom: 100px;">
-        <div class="col s12 m6 l6 offset-m1 offset-l1 scrollfast hide-on-small-only">
-            <div class="container">
-                <img class="materialboxed responsive-img" width="500" src="assets/IMG_0782.JPG" style="float: right;">
-            </div>
-        </div>
-        <div class="col s12 m6 l4 pull-m2 pull-l2 scrollslow">
-            <div class="container center-align">
-                
-                <h5 style="text-transform: uppercase;">Coming Soon</h5>
-                <hr style="width: 150px; border-style: solid; border-color: #a35041; border-width: 1.5px;">
-                <h2 style="font-family: 'Yeseva One', cursive;">Los Angeles</h2>
-                <h5>Collection</h5>
-                <img class="materialboxed responsive-img show-on-small hide-on-med-and-up" width="500" src="assets/IMG_0782.JPG" >
-            </div>
-        </div>
-    </div>
-
-    <div class="section">
-        <div class="row">
-        <div class="col s6 m6 show-on-medium-and-down hide-on-large-only valign-wrapper center-align">
-                <h4 class="center-align">Inspired By ___</h4>
-            </div>
-        </div>
-        <div class="row">
-            
-            <div class="col l10 m10 offset-m1 offset-l1 hide-on-small-only valign-wrapper">
-                <div class="col m3 l3">
-                    <img class="materialboxed responsive-img scrollsuperslow" width="300" src="assets/blocks.jpg" style="display: inline;">
-                </div>
-                <div class="col m3 l4 hide-on-med-and-down">
-                    <h4 class="center-align">Inspired<br>By ___</h4>
-                </div>
-                <div class="col m3 l3">
-                    <img class="materialboxed responsive-img scrollfast" width="300" src="assets/stairs.jpg" style="display: inline;">
-                </div>
-                <div class="col m3 l2">
-                    <img class="materialboxed responsive-img scrollslow" width="300" src="assets/stacked.jpg" style="display: inline;">
-                </div>
-            </div>
-
-            <div class="slider show-on-small hide-on-med-and-up">
-                <ul class="slides">
-                  <li>
-                    <img src="assets/blocks.jpg">
-                  </li>
-                  <li>
-                    <img src="assets/stairs.jpg">
-                  </li>
-                  <li>
-                    <img src="assets/stacked.jpg">
-                  </li>
-                  <li>
-                    <img src="assets/stone.jpg">
-                  </li>
-                  <li>
-                    <img src="assets/pardise.jpg">
-                  </li>
-                  <li>
-                    <img src="assets/pool.jpg">
-                  </li>
-              </ul>
-          </div>
-        </div>
-
-        <div class="row">
-            
-            <div class="col l10 m10 offset-m1 offset-l1 hide-on-small-only valign-wrapper">
-                <div class="col m3 l3 offset-l1">
-                    <img class="materialboxed responsive-img scrollfast" width="200" src="assets/stone.jpg" style="display: inline; ">
-                </div>
-                <div class="col m3 l3 pull-l2">
-                    <img class="materialboxed responsive-img scrollsuperslow" width="300" src="assets/pardise.jpg" style="display: inline;">
-                </div>
-                <div class="col m3 l2 pull-l3">
-                    <img class="materialboxed responsive-img scrollslow" width="200" src="assets/pool.jpg" style="display: inline;">
-                </div>
-            </div>
-
-        </div>
-    </div>
-
-    <div class="row scrollslow" style="padding-top: 100px;">
-        <div class="col s12 m10 valign-wrapper push-m2" style="background: #d8bdb2;">
-
-            <div class="col s12 m5 offset-m1" style="padding-top: 50px; padding-bottom: 50px;">
+            <div class="col s12 m12 l12 scrollsuperslow">
                 <div class="container">
-                    <h2>Welcome<br>Home ___</h2>
-                    <p style="font-size: 1.4em;">Sign up for more news about Evascape, including details on our first launch.</p>
-                    <!-- Begin MailChimp Signup Form -->
-                    <!-- Begin MailChimp Signup Form -->
-                    <link href="//cdn-images.mailchimp.com/embedcode/slim-10_7.css" rel="stylesheet" type="text/css">
+                    <p class="flow-text center-align" style="line-height: 1.3;">We believe your decor should effortlessly fit your wanderlust lifestyle and ever changing mood because <span style="font-weight: 800;">you shouldn’t have to compromise on making your space yours.</span> Nomadic by design is where form meets function.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+<div class="section hide-on-small-only">
+<div class="row" style="">
+    <div class="col s12 m10 valign-wrapper" style="height: 600px;" >
+    <div class="col s6 m2 l4 scrollfast" >
+                <img src="assets/Image uploaded from iOS (7).jpg" style="float: right; height: 40vw; width: auto;">
+            </div>
+             <div class="col s6 m4 l3 scrollfast" >
+                <img src="assets/greg-kantra-333822-unsplash.jpg" style="float: right; height: 40vw; width: auto;">
+            </div>
+            <div class="col s6 m7 l3 scrollfast" >
+
+                <img class="hide-on-small-only" src="assets/EVA Logos-07.png" style="height: 38em; width: auto; float: right; margin-right:-40px;">
+                <link href="//cdn-images.mailchimp.com/embedcode/slim-10_7.css" rel="stylesheet" type="text/css">
                     <style type="text/css">
                         #mc_embed_signup{background:none; clear:left; font:14px Helvetica,Arial,sans-serif; }
                         /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
                            We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
                     </style>
-                    <div id="mc_embed_signup">
+                    <p style="font-size: 1.4em;">Sign up for more news about Evascape, including details on our first launch.</p>
+                    <div class="left" id="mc_embed_signup">
                     <form action="https://productoptimist.us18.list-manage.com/subscribe/post?u=b61109ea2f724943a06082e82&amp;id=63b8dea8bc" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
                         <div id="mc_embed_signup_scroll">
                         
-                        <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" style="background: #fff; width: 100%;" required>
+                        <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" style="background: #fff; width: auto;" required>
                         <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
                         <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_b61109ea2f724943a06082e82_63b8dea8bc" tabindex="-1" value=""></div>
-                        <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button" style="background-color: #a24f41; width: 100%;"></div>
+                        <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button" style="background-color: #c6442e; width: auto;"></div>
                         </div>
                     </form>
                     </div>
-
-                    <!--End mc_embed_signup-->
-
-                    <!-- <div class="input-field inline">
-                      <input id="email_inline" type="email" class="validate">
-                      <label for="email_inline">Email</label>
-                      <a class="btn" style="background-color: #a24f41; width: 100%;">Submit</a>
-                    </div> -->
-                </div>
             </div>
-
-        </div>
-        </div>
-
-<div class="section center-align scrollsuperslow">
-                <div class="container">
-                    <div class="action-btn" style="left: 23px !important;">
-                      <a class="btn-floating btn" style="background-color: #d8bdb2;;" href="https://www.instagram.com/evascapehome/">
-                        <i class="fab fa-instagram fa-sm"></i>
-                      </a>
-                      <a class="btn-floating btn" style="background-color: #d8bdb2;;" href="#">
-                        <i class="fab fa-pinterest-p fa-sm"></i>
-                      </a>
-                      <a class="btn-floating btn" style="background-color: #d8bdb2;;">
-                        <i class="fab fa-youtube fa-sm"></i>
-                      </a>
-                      <a class="btn-floating btn" style="background-color: #d8bdb2;;">
-                        <i class="fab fa-facebook-f fa-sm"></i>
-                      </a>
-                      <a class="btn-floating btn" style="background-color: #d8bdb2;;" href="mailto:kbrinso@gmail.com">
-                        <i class="far fa-envelope fa-sm"></i>
-                      </a>
-                    </div>
-                </div>
-            </div>
-
-<div class="section scrollfast" style="top-padding: 100px;">
-        <div class="row">
-            <div class="col s12">
-                <div class="container center-align">
-                    <h4 class="black-text">Contact Us</h4><br>
-                    <p class="black-text center-align" style="line-height: 1.9;">hello@evascape.com<br>
-                    6276 W Olympic Boulevard<br>Los Angeles, CA<br>90048</p>
-                </div>
-            </div>
-        </div>        
     </div>
+    </div>
+</div>
+
+
+<div class="section show-on-small hide-on-med-and-up">
+
+    <div class="row">
+        
+        <div class="col s12">
+            <img class="responsive-img scrollfast" src="assets/greg-kantra-333822-unsplash.jpg" style="float: right;">
+        </div>
+    </div>
+    <div class="row valign-wrapper" style="">
+        <div class="col s12">
+        <link href="//cdn-images.mailchimp.com/embedcode/slim-10_7.css" rel="stylesheet" type="text/css">
+            <style type="text/css">
+                #mc_embed_signup{background:none; clear:left; font:14px Helvetica,Arial,sans-serif; width: 90vw; }
+                /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+                   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+
+            </style>
+            <div class="center-align center" id="mc_embed_signup">
+            <form action="https://productoptimist.us18.list-manage.com/subscribe/post?u=b61109ea2f724943a06082e82&amp;id=63b8dea8bc" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                <div id="mc_embed_signup_scroll">
+                
+                <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" style="background: #fff; width: 100%;" required>
+                <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_b61109ea2f724943a06082e82_63b8dea8bc" tabindex="-1" value=""></div>
+                <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button" style="background-color: #c6442e; width: 100%;"></div>
+                </div>
+            </form>
+            </div>
+            <p class="center" style="font-size: 1.4em;">Sign up for more news about Evascape, including details on our first launch.</p>
+            </div>                
+    </div>
+    
+</div>
+
+
+    <div class="section hide-on-small-only" style="margin-top: 5em; background: rgba(51,51,51,0.08); height: 30em;">
+    <div class="row hide-on-small-only valign-wrapper">
+         <div class="hide-on-small-only col m6 l4">
+            <h3 class="center-align" style="font-weight: 600; line-height: 1.3;">Authentic spaces, rad places.</h3>
+            <p class="center-align flow-text" style="line-height: 1.3;">We're not about mass-market trends. We deliver authenticity by curating the experiential designs that modern nomads crave. We're bluring the lines between memorable destinations and the your ever-changing abode.</p>
+         </div>
+
+         <div class="col m6 l4 scrollslow" >
+             <div class="slider left" >
+               <ul class="slides">
+                 <li>
+                   <img src="assets/blocks.jpg">
+                 </li>
+                 <li>
+                   <img src="assets/stairs.jpg">
+                 </li>
+                 <li>
+                   <img src="assets/stacked.jpg">
+                 </li>
+                 <li>
+                   <img src="assets/stone.jpg">
+                 </li>
+                 <li>
+                   <img src="assets/pardise.jpg">
+                 </li>
+                 <li>
+                   <img src="assets/pool.jpg">
+                 </li>
+             </ul>
+         </div>
+         </div>
+    </div>
+</div>
+    <div class="section show-on-small" style="margin-top: 2vw;">
+        <div class="row hide-on-med-and-up">
+            <div class="col s12 scrollslow" >
+             <div class="slider left" >
+               <ul class="slides">
+                 <li>
+                   <img src="assets/blocks.jpg">
+                 </li>
+                 <li>
+                   <img src="assets/stairs.jpg">
+                 </li>
+                 <li>
+                   <img src="assets/stacked.jpg">
+                 </li>
+                 <li>
+                   <img src="assets/stone.jpg">
+                 </li>
+                 <li>
+                   <img src="assets/pardise.jpg">
+                 </li>
+                 <li>
+                   <img src="assets/pool.jpg">
+                 </li>
+             </ul>
+         </div>
+     </div>
+    </div>
+         <div class="row">
+             <div class="hide-on-med-and-up col s12">
+                <h3 class="center-align" style="font-weight: 600; line-height: 1.3;">Authentic spaces, by rad places.</h3>
+                <p class="center-align" style="line-height: 1.3; font-size: 1.2em;">We're not about mass-market trends. We deliver authenticity by curating the experiential designs that modern nomads crave. We're bluring the lines between memorable destinations and the your ever-changing abode.</p>
+             </div>
+         </div>
+
+         
+</div>
+    </div>
+    </div>
+
+
+
+    <div class="row show-on-small hide-on-med-and-up">
+        <div class="s12 center-align">
+            <img class="responsive-img " src="assets/EVA Logos-07.png" style="margin-bottom: -8em;">
+        </div>
+        </div>
+
+    <div class="row valign-wrapper" style="padding-bottom: 100px;">
+        <div class="col s12 m6 l6 offset-m1 offset-l1 scrollfast hide-on-small-only">
+            <div class="container">
+                <img class="materialboxed responsive-img" width="500" src="assets/Image uploaded from iOS (8).jpg" style="float: right;">
+            </div>
+        </div>
+        <div class="col s12 m6 l4 pull-m2 pull-l2 scrollslow">
+            <div class="container center-align">
+
+                <h5 style="text-transform: uppercase;">Coming Soon</h5>
+                <hr style="width: 150px; border-style: solid; border-color: #a35041; border-width: 1.5px;">
+                <h2 style="font-family: 'Yeseva One', cursive;">Los Angeles</h2>
+                <h5>Collection</h5>
+                <img class="materialboxed responsive-img show-on-small hide-on-med-and-up" width="500" src="assets/Image uploaded from iOS (8).jpg" >
+            </div>
+        </div>
+    </div>
+  <div class="divider"></div>
+
+    <footer class="page-footer white" style="color: #c6442e;">
+             <div class="container">
+               <div class="row">
+                 <div class="col l6 s12">
+                   <h5>Contact</h5>
+                   <p style="line-height: 1.9; text-decoration: underline;">hello@evascape.com</p>
+                 </div>
+                 <div class="col l4 offset-l2 s12">
+                   <h5>The Eva's</h5>
+<!--                    <a href="http://blog.evascape.com/" class="white waves-effect waves-light btn" style="color: #c6442e;">Blog</a>
+ -->                   <ul>
+                    <li><a style="color: #c6442e; text-decoration: underline;" href="http://blog.evascape.com/">Blog</a></li>
+                    <li><a style="color: #c6442e; text-decoration: underline;" href="www.instagram.com/evascapeshop">Instagram</a></li>
+                    <li><a style="color: #c6442e; text-decoration: underline;" href="www.facebook.com/evascape">Facebook</a></li>
+                    <li><a style="color: #c6442e; text-decoration: underline;" href="www.pinterest.com/evascape">Pinterest</a></li>
+                   </ul>
+                   
+                 </div>
+               </div>
+             </div>
+             <div class="footer-copyright" >
+               <div class="container center-align" style="color: #c6442e;">
+               © 2018 Evascape
+                   <!-- <div class="action-btn right">
+                     <a class="btn-floating btn-small btn-flat" style="background-color: transparent !important;" href="https://www.instagram.com/evascapeshop/">
+                       <i class="fab fa-instagram fa-sm" style="color: #c6442e;"></i>
+                     </a>
+                     <a class="btn-floating btn-small btn-flat" style="background-color: transparent !important;" href="#">
+                       <i class="fab fa-pinterest-p fa-sm" style="color: #c6442e;"></i>
+                     </a>
+                     <a class="btn-floating btn-small btn-flat" style="background-color: transparent !important;">
+                       <i class="fab fa-youtube fa-sm" style="color: #c6442e;"></i>
+                     </a>
+                     <a class="btn-floating btn-small btn-flat" style="background-color: transparent !important;">
+                       <i class="fab fa-facebook-f fa-sm" style="color: #c6442e;"></i>
+                     </a>
+                     <a class="btn-floating btn-small btn-flat" style="background-color: transparent !important;" href="mailto:katrina@evascape.com">
+                       <i class="far fa-envelope fa-sm" style="color: #c6442e;"></i>
+                     </a>
+                   </div> -->
+               </div>
+             </div>
+           </footer>
     
 
     <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>  
